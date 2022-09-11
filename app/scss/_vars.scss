@@ -1,0 +1,23 @@
+$def: #1D2F38;
+$def2: #333333;
+$def3:#10843F;
+
+%Ral-400 {
+  font-family: "Raleway-Regular", sans-serif;
+  font-weight: 400;
+}
+%Ral-700 {
+  font-family: "Raleway-Bold", sans-serif;
+  font-weight: 700;
+}
+%Bit-400 {
+  font-family: "Bitter-Regular", sans-serif;
+  font-weight: 400;
+}
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers	});
+}
